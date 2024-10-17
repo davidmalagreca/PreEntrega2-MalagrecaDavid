@@ -56,18 +56,18 @@ console.log(`El total de tu compra es: ${total.toLocaleString('es-ES')} pesos.`)
 const añadirCarrito = document.getElementById("añadirCarrito");
 añadirCarrito.addEventListener(`click`,function(){
     console.log(`Añadiste al carrito una remera $23.500`)
-    alert("Agrego detalles de prenda en consola")
+    alert("Agregaste una remera al carrito")
 })
 
 
 const añadirCarrito2 = document.getElementById("añadirCarrito2");
 añadirCarrito2.addEventListener(`click`,function(){
     console.log(`Añadiste al carrito un buzo $45.000`)
-    alert("Agrego detalles de prenda en consola")
+    alert("Agregaste un buzo al carrito")
 })
 
 const añadirCarrito3 = document.getElementById("añadirCarrito3");
 añadirCarrito3.addEventListener(`click`,function(){
     console.log(`Añadiste al carrito un jean $75.000`)
-    alert("Agrego detalles de prenda en consola")
+    alert("Agregaste un jean al carrito")
 })
